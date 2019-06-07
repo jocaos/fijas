@@ -1,0 +1,15 @@
+
+
+Starting simulation: vaddr (Virtual Address) has 16 bits, consisting of higher 11 bits for vfn (Virtual Frame Number), and lower 5 bits for offset within each page (log_2(pagesize=32))
+
+
+ Simulation Parameters:
+    phys_pages, pagesize, input_file, fault_handler, ref_limit
+     3,  32,  example_trace.txt,  fifo,  0
+
+ Simulation Results:
+	Stat Type: code,load,store;   total
+	Memory references: 0,20,0;  20
+	Page Faults: 0,15,0;  15
+	Compulsory Page Faults: 0,6,0;  6
+	(Dirty) Page Writes: 0,0,0;  0
